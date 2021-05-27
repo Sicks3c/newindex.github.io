@@ -1127,6 +1127,14 @@ section {
   transform: scale(1.1);
 }
 
+.doctors .member .picc {
+  overflow: hidden;
+}
+
+.doctors .member .picc img {
+  transition: ease-in-out 0.3s;
+}
+
 .doctors .member .member-info {
   padding-left: 30px;
 }
@@ -1425,4 +1433,46 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+#bureautique {
+  width: 100%;
+  height: 90vh;
+  background: #00000070 url("../img/bureautique.jpg") top center;
+  background-size: cover;
+  margin-bottom: -200px;
+}
+
+#bureautique .container {
+  position: relative;
+}
+
+#bureautique h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#developpement {
+  width: 100%;
+  height: 90vh;
+  background: #00000070 url("../img/dev/developpement.jpg") top center;
+  background-size: cover;
+  margin-bottom: -200px;
+}
+
+#developpement .container {
+  position: relative;
+}
+
+#developpement h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
