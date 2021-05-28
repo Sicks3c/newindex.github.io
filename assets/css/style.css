@@ -1476,3 +1476,45 @@ section {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+#Langues {
+  width: 100%;
+  height: 90vh;
+  background: #00000070 url("../img/lang/lang.jpg") top center;
+  background-size: cover;
+  margin-bottom: -200px;
+}
+
+#Langues .container {
+  position: relative;
+}
+
+#Langues h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#design-pao {
+  width: 100%;
+  height: 90vh;
+  background: #00000070 url("../img/PAO/design.jpg") top center;
+  background-size: cover;
+  margin-bottom: -200px;
+}
+
+#design-pao .container {
+  position: relative;
+}
+
+#design-pao h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
