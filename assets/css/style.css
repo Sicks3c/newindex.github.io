@@ -520,6 +520,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#heroFor {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  margin-bottom: -200px;
+}
+
 #hero {
   width: 100%;
   height: 90vh;
@@ -528,11 +535,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: -200px;
 }
 
-#hero .container {
+#hero .container,#heroFor .container {
   position: relative;
 }
 
-#hero h1 {
+#hero h1,#heroFor h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -541,13 +548,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #2c4964;
 }
 
-#hero h2 {
+#hero h2,#heroFor h2 {
   color: #2c4964;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started,#heroFor  {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -562,7 +569,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #1977cc;
 }
 
-#decouvrir .btn-get-started {
+#decouvrir .btn-get-started,#heroFor .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -576,7 +583,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #1977cc;
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover,#heroFor .btn-get-started:hover {
   background: #3291e6;
 }
 
@@ -591,14 +598,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     height: 100vh;
   }
-  #hero .container {
+  #hero .container,#heroFor .container {
     padding-bottom: 63px;
   }
-  #hero h1 {
+  #hero h1,#heroFor h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #hero h2,#heroFor h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -1517,4 +1524,13 @@ section {
   line-height: 56px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+#sideLessentieldexcel {
+  width: 100%;
+  height: 90vh;
+  background: #00000070 url("../img/lang/lang.jpg") top center;
+  background-size: cover;
+  margin-bottom: -200px;
+  height: 200px;
 }
